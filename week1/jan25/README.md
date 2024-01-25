@@ -3,6 +3,6 @@
 1. Clone Repo into your IDE
 2. Complete main.cpp
 3. Execute code
- * **g++ -o main man.cpp**
+ * **g++ -o main man.cc**
  * **./main**
 4. Check if correct output
