@@ -12,8 +12,6 @@ double calculate(double num1, double num2, std::string operation){
 int main() {
   double meal_cost = 0.0;
   double tip_percent = 0.0;
-  double birthday_discount = 10.0;
-  double total_tip = 0.0;
   int number_of_guests = 0;
 
 
@@ -29,10 +27,6 @@ int main() {
 
       
   // TODO: Call function ~calculate~ to perform arithmitic
-  std::string add = "add";
-  std::string subtract = "subtract";
-  std::string divide = "divide";
-  std::string multiply = "multiply";
 
   
 
