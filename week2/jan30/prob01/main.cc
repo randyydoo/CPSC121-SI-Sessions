@@ -25,13 +25,22 @@ int main() {
   std::cout << "Please input number of guests: ";
   std::cin >> number_of_guests;
 
-      
+  std::cout << "---------------------------------\n"
+        
   // TODO: Call function ~calculate~ to perform arithmitic
 
   
-
-
+    
   // Cout to follow guidelines
+  // print subtotal
+  // print tip percentage
+  // print tip in dollars ($)
+  std::cout << "---------------------------------\n"
+  // print total meal cost
+  std::cout << "---------------------------------\n"
+  // print cost per person
+  
+
 
   return 0;
 }
