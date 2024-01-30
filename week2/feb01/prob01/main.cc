@@ -1,12 +1,11 @@
 #include <iomanip>
 #include <iostream>
 
-void calculate(double num1, double num2, double & val3, std::string operation){
-    // TODO: create a function that calculates arithmitic based on your needs
-    if (operation == "add")  val3 = num1+num2;
-    else if (operation == "subtract") val3 = num1-num2;
-    else if (operation == "divide") val3 = num1/num2;
-    else val3 = num1*num2;
+void calculate(double num1, double num2, double &val3, std::string operation){
+    // TODO: create a function that calculates arithmitic and changes variable val3 passed in as a reference
+    
+    
+    
 }
 
 
@@ -30,13 +29,25 @@ int main() {
    
 
       
-  // TODO: Call function ~calculate~ to perform arithmitic
+  // TODO: Call function ~calculate~ to 
   std::string add = "add";
   std::string subtract = "subtract";
   std::string divide = "divide";
   std::string multiply = "multiply";
 
-   
+  double meal_total = 0.0;
+  double tip_total = 0.0;
+  double price_per_person = 0.0;
+
+
+  std::cout << std::fixed << std::setprecision(2)
+            << "Subtotal: " << meal_cost << "\n"
+            << "Tip percent: " << tip_percent << "%\n"
+            << "Tip: " << tip_total << "\n" 
+            << "----------------------------------------\n"
+            << "Total: " << meal_total
+            << "----------------------------------------\n"
+            << "Price per person: " << price_per_person << "\n";
 
   
   return 0;
