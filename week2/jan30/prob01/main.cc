@@ -1,8 +1,6 @@
-#include <iomanip>
 #include <iostream>
 
 double calculate(double num1, double num2, std::string operation){
-    // TODO: create a function that calculates arithmitic based on your needs
 
 }
 
@@ -10,37 +8,18 @@ double calculate(double num1, double num2, std::string operation){
 
 
 int main() {
-  double meal_cost = 0.0;
-  double tip_percent = 0.0;
-  int number_of_guests = 0;
+  std::string add = "add";
+  std::string sub = "subtract";
+  std::string multiply = "multiply";
+  std::string divide = "divide";
 
-
-  std::cout << "Please input meal cost: ";
-  std::cin >> meal_cost;
-
-
-  std::cout << "Please input tip percent: ";
-  std::cin >> tip_percent;
-
-  std::cout << "Please input number of guests: ";
-  std::cin >> number_of_guests;
-
-  std::cout << "---------------------------------\n";
-        
-  // TODO: Call function ~calculate~ to perform arithmitic
-
-  
+  // TODO
+  double num1 = 5, num2 = 4; 
     
-  // Cout to follow guidelines
-  // print subtotal
-  // print tip percentage
-  // print tip in dollars ($)
-  std::cout << "---------------------------------\n";
-  // print total meal cost
-  std::cout << "---------------------------------\n";
-  // print cost per person
-  
+  double num3 = 10, num4 = 5; 
 
+  double num5 = 2, num6 = 4;
+   
 
   return 0;
 }

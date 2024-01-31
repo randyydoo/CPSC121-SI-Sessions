@@ -1,17 +1,26 @@
-# Task
-Add up all of the values within a vector
+# Meal Costs 
+Create a program that computes the cost of meal per guest with the use of performing arithmitic through functions.
+
+
+# TODO
+Complete the <b>calculate</b> function and call the function accordingly in the main function
+
 
 
 # Expected output
+<b>Output does not have to have exact format, as long as arithmitic calculations are exact</b>
+
 <pre>
-The sum of the vector is: 55
+Please input meal cost: 182.40
+Please input tip percent: 18
+Please input number of guests: 4
+---------------------------------
+Subtotal: $182.40
+Tip Percentage: 18.00%
+Tip: $32.83
+---------------------------------
+Total: $215.23
+---------------------------------
+Price Per Person: $53.81
 </pre>
 
-
-# Follow up
-Add up the values within the vector if the current index is even and greater than 0
-
-# Expected follow up output
-<pre>
-The sum of even indexes from the vector is: 24
-</pre>
